@@ -40,6 +40,8 @@ pip install mygene pandas
 - This repository was originally inspired by the idea from[AcidBarium/GeneCardsWebScraper](https://github.com/AcidBarium/GeneCardsWebScraper). However, due to strict Cloudflare protections on GeneCards, this project was entirely rewritten to utilize the `MyGene.info` API for a robust and legitimate data retrieval method. This script can scrape NCBI summaries and UniProt summaries, but it cannot retrieve GeneCard summaries.
 - Data provided by [MyGene.info](https://mygene.info/).
 
+## License
+- This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 ---
 
 <a id="chinese"></a>
@@ -79,3 +81,7 @@ pip install mygene pandas
 ## 🙏 致谢
 - 本项目开发初衷受到了 [AcidBarium/GeneCardsWebScraper](https://github.com/AcidBarium/GeneCardsWebScraper) 启发。但由于目标网站日益严苛的反爬策略，本项目在Gemini3.0-pro-preview建议下完全重构，改用 `MyGene.info` 接口，以提供更稳定、合规的数据获取方式。这个代码可以爬到NCBI summary和uniprot summary，只有genecard summary是获取不到的。
 - 感谢 [MyGene.info](https://mygene.info/) 提供强大的 API 接口支持。
+
+## 开源协议
+- 本项目采用**MIT 协议**进行许可。详情请参阅[LICENSE](./LICENSE)文件。
+- 
