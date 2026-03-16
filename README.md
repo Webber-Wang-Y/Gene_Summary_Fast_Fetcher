@@ -58,7 +58,7 @@ pip install mygene pandas
 - **数据权威**：直接获取 NCBI RefSeq 和 UniProt 等权威数据库的 Summary。
 
 ## ⚙️ 环境依赖
-建议使用 Miniconda 或直接安装 Python 3.7+。依赖以下库：
+建议使用anaconda创建单独的虚拟环境。依赖以下库：
 - `mygene`
 - `pandas`
 
