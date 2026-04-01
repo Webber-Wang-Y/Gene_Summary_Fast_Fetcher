@@ -79,9 +79,8 @@ pip install mygene pandas
 4. 运行结束后，当前目录会生成 `gene_summaries_api.csv` 文件，包含查询结果。
 
 ## 🙏 致谢
-- 本项目开发初衷受到了 [AcidBarium/GeneCardsWebScraper](https://github.com/AcidBarium/GeneCardsWebScraper) 启发。但由于目标网站日益严苛的反爬策略，本项目在Gemini3.0-pro-preview建议下完全重构，改用 `MyGene.info` 接口，以提供更稳定、合规的数据获取方式。这个代码可以爬到NCBI summary和uniprot summary，只有genecard summary是获取不到的。
+- 本项目开发初衷受到了 [AcidBarium/GeneCardsWebScraper](https://github.com/AcidBarium/GeneCardsWebScraper) 启发。但由于目标网站日益严苛的反爬策略，本项目在Gemini3.0-pro-preview建议下完全重构，改用 `MyGene.info` 接口，以提供更稳定、合规的数据获取方式。这个代码可以抓取到NCBI summary和uniprot summary，只有genecard summary是获取不到的。
 - 感谢 [MyGene.info](https://mygene.info/) 提供强大的 API 接口支持。
 
 ## 开源协议
 - 本项目采用**MIT 协议**进行许可。详情请参阅[LICENSE](./LICENSE)文件。
-- 
